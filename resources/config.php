@@ -1,10 +1,11 @@
 <?php
 
+// turn on output buffering
+ob_start();
+
 if (!defined("DS")) {
     define("DS", DIRECTORY_SEPARATOR);
 }
-
-
 
 // Check if the TEMPLATE_FRONT constant is not defined, and if so, define it to point to the "templates/back" directory.
 if (!defined("TEMPLATE_FRONT")) {
@@ -32,5 +33,7 @@ if (!defined("DB_NAME")) {
 }
 
 $connection =  mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+
+require_once ("functions.php");
 
 ?>
