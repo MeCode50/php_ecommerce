@@ -3,6 +3,9 @@
 // turn on output buffering
 ob_start();
 
+// turned on session 
+ session_start();
+
 if (!defined("DS")) {
     define("DS", DIRECTORY_SEPARATOR);
 }
