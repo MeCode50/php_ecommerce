@@ -26,7 +26,11 @@ if (!defined("DB_USER")) {
 if (!defined("DB_PASS")) {
     define("DB_PASS",  "");
 }
-echo TEMPLATE_FRONT;
 
+if (!defined("DB_NAME")) {
+    define("DB_NAME",  "ecommerce");
+}
+
+$connection =  mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 
 ?>
