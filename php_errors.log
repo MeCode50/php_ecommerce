@@ -22,3 +22,25 @@ Stack trace:
   thrown in /opt/lampp/htdocs/ecommerce/resources/config.php on line 38
 [30-Sep-2024 04:16:03 Europe/Berlin] PHP Warning:  include(/opt/lampp/htdocs/ecommerce/resources/templates/front/header..php): Failed to open stream: No such file or directory in /opt/lampp/htdocs/ecommerce/public/index.php on line 3
 [30-Sep-2024 04:16:03 Europe/Berlin] PHP Warning:  include(): Failed opening '/opt/lampp/htdocs/ecommerce/resources/templates/front/header..php' for inclusion (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/ecommerce/public/index.php on line 3
+[30-Sep-2024 13:14:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:18:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:18:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:18:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:20:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:20:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "class", expecting "," or ";" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:26:40 Europe/Berlin] PHP Warning:  Undefined variable $connecction in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 8
+[30-Sep-2024 13:26:40 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php:8
+Stack trace:
+#0 /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php(8): mysqli_query(NULL, 'SELECT * FROM c...')
+#1 /opt/lampp/htdocs/ecommerce/public/index.php(10): include('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 8
+[30-Sep-2024 13:26:45 Europe/Berlin] PHP Warning:  Undefined variable $connecction in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 8
+[30-Sep-2024 13:26:45 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php:8
+Stack trace:
+#0 /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php(8): mysqli_query(NULL, 'SELECT * FROM c...')
+#1 /opt/lampp/htdocs/ecommerce/public/index.php(10): include('/opt/lampp/htdo...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 8
+[30-Sep-2024 13:29:54 Europe/Berlin] PHP Warning:  Undefined array key "cat_title" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
+[30-Sep-2024 13:29:54 Europe/Berlin] PHP Warning:  Undefined array key "cat_title" in /opt/lampp/htdocs/ecommerce/resources/templates/front/side_nav.php on line 12
