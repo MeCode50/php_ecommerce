@@ -1,4 +1,9 @@
-<?php require_once("../resources/config.php"); ?>;
+<?php 
+require_once("../resources/config.php");
+require_once("../error.php"); // Path from public to the root
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">

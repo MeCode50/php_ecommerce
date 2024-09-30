@@ -1,5 +1,5 @@
 <?php
 
-echo "from functions.php";
+echo "from functions";
 
 ?>
